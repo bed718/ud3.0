@@ -16,8 +16,8 @@
 		</div>
 		<div class="bot"></div>
 		<div id="ud-sm">
-			<div id="u-sm"><a href="/"><img src="http://b-ed.com/ud3.0/<?php echo path_to_theme(); ?>/images/u_sm.png" alt="u" /></a></div>
-			<div id="d-sm"><a href="/"><img src="http://b-ed.com/ud3.0/<?php echo path_to_theme(); ?>/images/d_sm.png" alt="d" /></a></div>
+			<div id="u-sm"><a href="/"><img src="/<?php echo path_to_theme(); ?>/images/u_sm.png" alt="u" /></a></div>
+			<div id="d-sm"><a href="/"><img src="/<?php echo path_to_theme(); ?>/images/d_sm.png" alt="d" /></a></div>
 
 			<div class="logo">
 				<a href="/">Upstairs <span>Downstairs</span></a>
@@ -34,8 +34,8 @@
    <?php endif; ?>
 	
 	<?php if($is_front): ?>
-	<div id="u-big"><img src="http://b-ed.com/ud3.0/<?php echo path_to_theme(); ?>/images/u_big.png" alt="u" /></div>
-	<div id="d-big"><img src="http://b-ed.com/ud3.0/<?php echo path_to_theme(); ?>/images/d_big.png" alt="d" /></div> 
+	<div id="u-big"><img src="/<?php echo path_to_theme(); ?>/images/u_big.png" alt="u" /></div>
+	<div id="d-big"><img src="/<?php echo path_to_theme(); ?>/images/d_big.png" alt="d" /></div> 
 
 	<div class="logo main">
 		<a href="/">Upstairs <span>Downstairs</span></a>
