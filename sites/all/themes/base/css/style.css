@@ -1501,7 +1501,12 @@ input[type="text"], input[type="password"], input[type="email"], input[type="url
   /* line 1414, ../sass/style.scss */
   #megan-slide h2 {
     text-align: center; } }
-/* line 1426, ../sass/style.scss */
+/* line 1424, ../sass/style.scss */
+#megan-slide .caption {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 12px; }
+/* line 1432, ../sass/style.scss */
 #megan-slide .inner {
   *zoom: 1;
   max-width: 2000px;
@@ -1513,27 +1518,27 @@ input[type="text"], input[type="password"], input[type="email"], input[type="url
   display: table;
   clear: both; }
 @media (max-width: 700px) {
-  /* line 1426, ../sass/style.scss */
+  /* line 1432, ../sass/style.scss */
   #megan-slide .inner {
     padding-left: 20px;
     padding-right: 20px; } }
-/* line 1439, ../sass/style.scss */
+/* line 1445, ../sass/style.scss */
 #megan-slide .content {
   float: left;
   max-width: 60%;
   padding-left: 40px; }
-/* line 1444, ../sass/style.scss */
+/* line 1450, ../sass/style.scss */
 #megan-slide .content h3 {
   margin-top: 40px;
   margin-bottom: 10px;
   font-size: 20px; }
 @media (max-width: 1080px) {
-  /* line 1439, ../sass/style.scss */
+  /* line 1445, ../sass/style.scss */
   #megan-slide .content {
     max-width: 500px;
     margin: auto;
     margin-top: 20px; } }
-/* line 1457, ../sass/style.scss */
+/* line 1463, ../sass/style.scss */
 #megan-slide .image {
   background-color: #fff;
   padding: 40px;
@@ -1541,7 +1546,7 @@ input[type="text"], input[type="password"], input[type="email"], input[type="url
   margin-top: -80px;
   max-width: 40%; }
 @media (max-width: 1080px) {
-  /* line 1457, ../sass/style.scss */
+  /* line 1463, ../sass/style.scss */
   #megan-slide .image {
     float: none;
     padding: 20px;
@@ -1549,7 +1554,7 @@ input[type="text"], input[type="password"], input[type="email"], input[type="url
     margin-right: auto;
     margin-left: auto; } }
 
-/* line 1475, ../sass/style.scss */
+/* line 1481, ../sass/style.scss */
 #quote-slide {
   background: url("../images/wallpaper/UDXO-Melissa-wallpaper.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -1562,36 +1567,36 @@ input[type="text"], input[type="password"], input[type="email"], input[type="url
   text-align: center;
   display: table; }
 @media (max-width: 1080px) {
-  /* line 1475, ../sass/style.scss */
+  /* line 1481, ../sass/style.scss */
   #quote-slide {
     padding: 20px; } }
-/* line 1487, ../sass/style.scss */
+/* line 1493, ../sass/style.scss */
 #quote-slide .inner {
   position: relative;
   display: table-cell;
   vertical-align: middle; }
-/* line 1495, ../sass/style.scss */
+/* line 1501, ../sass/style.scss */
 #quote-slide .content {
   line-height: 2em;
   max-width: 740px; }
-/* line 1501, ../sass/style.scss */
+/* line 1507, ../sass/style.scss */
 #quote-slide .author {
   margin-top: 20px; }
-/* line 1505, ../sass/style.scss */
+/* line 1511, ../sass/style.scss */
 #quote-slide .quote {
   font-size: 3em;
   line-height: normal;
   font-family: "Playfair Display", serif;
   font-weight: 900; }
 @media (max-width: 1080px) {
-  /* line 1505, ../sass/style.scss */
+  /* line 1511, ../sass/style.scss */
   #quote-slide .quote {
     font-size: 1.5em; } }
 
-/* line 1522, ../sass/style.scss */
+/* line 1528, ../sass/style.scss */
 #contact-slide h2 {
   font-size: 70px; }
-/* line 1533, ../sass/style.scss */
+/* line 1539, ../sass/style.scss */
 #contact-slide .inner {
   text-align: center;
   padding-top: 80px;
@@ -1599,28 +1604,28 @@ input[type="text"], input[type="password"], input[type="email"], input[type="url
 
 /* FRONT
 -------------------------------------------------------------- */
-/* line 1548, ../sass/style.scss */
+/* line 1554, ../sass/style.scss */
 .front #main-content {
   padding-top: 400px; }
 @media (max-width: 1080px) {
-  /* line 1548, ../sass/style.scss */
+  /* line 1554, ../sass/style.scss */
   .front #main-content {
     padding-top: 0; } }
-/* line 1556, ../sass/style.scss */
+/* line 1562, ../sass/style.scss */
 .front #ud-sm {
   top: -180px; }
 @media (max-width: 1080px) {
-  /* line 1561, ../sass/style.scss */
+  /* line 1567, ../sass/style.scss */
   .front #ud-sm {
     top: 0; }
-  /* line 1564, ../sass/style.scss */
+  /* line 1570, ../sass/style.scss */
   .front #ud-sm .logo {
     display: none; }
-  /* line 1569, ../sass/style.scss */
+  /* line 1575, ../sass/style.scss */
   .front #ud-sm #u-sm, .front #ud-sm #d-sm {
     display: block; } }
 
-/* line 1575, ../sass/style.scss */
+/* line 1581, ../sass/style.scss */
 #front-devider {
   *zoom: 1;
   padding: 5px 0 0;
@@ -1631,33 +1636,33 @@ input[type="text"], input[type="password"], input[type="email"], input[type="url
   content: "";
   display: table;
   clear: both; }
-/* line 1582, ../sass/style.scss */
+/* line 1588, ../sass/style.scss */
 #front-devider h3 {
   text-align: center;
   font-size: 20px;
   margin-bottom: 0;
   font-size: 50px;
   font-weight: 900; }
-/* line 1590, ../sass/style.scss */
+/* line 1596, ../sass/style.scss */
 #front-devider h3 span {
   font-style: italic;
   font-size: 20px;
   font-weight: 400; }
-/* line 1597, ../sass/style.scss */
+/* line 1603, ../sass/style.scss */
 #front-devider .btn {
   margin-bottom: -20px; }
-/* line 1601, ../sass/style.scss */
+/* line 1607, ../sass/style.scss */
 #front-devider .side, #front-devider .main {
   float: left; }
-/* line 1606, ../sass/style.scss */
+/* line 1612, ../sass/style.scss */
 #front-devider .side {
   width: 40%; }
-/* line 1610, ../sass/style.scss */
+/* line 1616, ../sass/style.scss */
 #front-devider .main {
   width: 100%;
   background-color: #fff; }
 
-/* line 1616, ../sass/style.scss */
+/* line 1622, ../sass/style.scss */
 #front-instafeed {
   *zoom: 1;
   padding: 40px; }
@@ -1666,27 +1671,27 @@ input[type="text"], input[type="password"], input[type="email"], input[type="url
   content: "";
   display: table;
   clear: both; }
-/* line 1624, ../sass/style.scss */
+/* line 1630, ../sass/style.scss */
 #front-instafeed a {
   float: left;
   line-height: 0;
   display: block;
   width: 12.5%;
   padding: 2px; }
-/* line 1635, ../sass/style.scss */
+/* line 1641, ../sass/style.scss */
 #front-instafeed a img {
   width: 100%;
   height: auto; }
 @media (max-width: 700px) {
-  /* line 1643, ../sass/style.scss */
+  /* line 1649, ../sass/style.scss */
   #front-instafeed a {
     width: 33.3%; } }
 
-/* line 1650, ../sass/style.scss */
+/* line 1656, ../sass/style.scss */
 .krumo-root {
   z-index: 1000; }
 
-/* line 1657, ../sass/style.scss */
+/* line 1663, ../sass/style.scss */
 .service-links li {
   display: inline-block;
   vertical-align: middle;
@@ -1694,15 +1699,15 @@ input[type="text"], input[type="password"], input[type="email"], input[type="url
   *zoom: 1;
   *display: inline; }
 
-/* line 1662, ../sass/style.scss */
+/* line 1668, ../sass/style.scss */
 #tinymce {
   background-color: #f6f3ef; }
-/* line 1665, ../sass/style.scss */
+/* line 1671, ../sass/style.scss */
 #tinymce p {
   width: 800px;
   margin-left: auto;
   margin-right: auto; }
-/* line 1671, ../sass/style.scss */
+/* line 1677, ../sass/style.scss */
 #tinymce .image-post_full {
   background-color: #fff;
   padding: 40px;
