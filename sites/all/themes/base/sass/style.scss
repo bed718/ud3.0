@@ -259,13 +259,6 @@ body.nav-active{
   h1{display: none;}
 }
 
-.caption{
-  margin: 20px auto;
-  padding-bottom: 20px;
-  font-size: 16px;
-  text-align: center;
-}
-
 
 #nav{
   @include pie-clearfix;
@@ -857,6 +850,13 @@ body.nav-active{
 
     &.image-holder{
       max-width: 100%;
+    }
+
+    &.caption{
+      margin: 20px auto;
+      padding-bottom: 20px;
+      font-size: 16px;
+      text-align: center;
     }
 
     @include bp(m){
