@@ -129,6 +129,7 @@ h3{font-weight: 900;}
   #u-sm,
   #d-sm{
     position: absolute;
+    width: 50%;
   }
 
   #u-sm{
@@ -254,7 +255,16 @@ body.nav-active{
   }
 }
 
+.page-node-52{
+  h1{display: none;}
+}
 
+.caption{
+  margin: 20px auto;
+  padding-bottom: 20px;
+  font-size: 16px;
+  text-align: center;
+}
 
 
 #nav{
