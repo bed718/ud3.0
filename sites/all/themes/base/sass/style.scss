@@ -43,12 +43,11 @@ p{
   a{
     text-decoration: underline;
   }
+}
 
-  .fancy{
-    font-family: $font_header;
-    font-weight: 900;
-    //font-size: 40px;
-  }
+.fancy{
+  font-family: $font_header;
+  font-weight: 900;
 }
 
 p + p{
@@ -535,9 +534,12 @@ body.nav-active{
   @include pie-clearfix;
 
   p{
+
     a{
       text-decoration: underline;
     }
+
+    
   }
 
   .image{
@@ -846,14 +848,28 @@ body.nav-active{
 .post.full{
   padding-bottom: $gap;
 
+  h2, h3{
+    max-width: 800px;
+    padding: 0 $gap;
+    font-family: $font_header;
+  }
+
+  h2{
+    font-size: 28px;
+  }
+
+  f3{
+    font-size: 20px;
+  }
+
   p{
     padding: 0 $gap;
     max-width: 800px;
     //margin: ($gap * 2) auto;
    // background-color: $page_med;
-    //margin-left: auto;
+   // margin-left: auto;
     //margin-right: auto;
-    font-size: 20px;
+    font-size: 18px;
 
     &.image-holder{
       max-width: 100%;
@@ -864,6 +880,18 @@ body.nav-active{
       padding-bottom: 20px;
       font-size: 16px;
       text-align: center;
+    }
+
+    &.pull-quote{
+      font-family: $font_header;
+      font-size: 30px;
+    }
+
+    &.inline-quote{
+      background-color: $page_med;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      
     }
 
     @include bp(m){
